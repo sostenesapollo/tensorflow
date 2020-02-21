@@ -25,6 +25,7 @@ print("Intercept:", linear.intercept_)
 
 predictions = linear.predict(x_test)
 
+# results analysis
 for x in range(len(predictions)):
-    print(predictions[x], x_test[x], y_test[x])
+    print("Test params:", x_test[x],"Real:",y_test[x],"Predition:%.2f"%predictions[x],)
 
