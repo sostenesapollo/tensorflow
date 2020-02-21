@@ -15,6 +15,9 @@ x = np.array(data.drop([predict],1))
 # Real notes
 y = np.array(data[predict])
 
+x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(x, y, test_size=0.1)
+
+'''
 best = 0
 for _ in range(30):
     x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(x, y, test_size=0.1)
@@ -31,12 +34,14 @@ for _ in range(30):
         with open("studentmodel.pickle", "wb") as f:
             pickle.dump(linear, f)
 print('best:',best)
-
+'''
 # Open data from pickle without train anymore
+pickle_in = None
 with open('studentmodel.pickle', 'rb') as f:
     pickle_in = pickle.load(f)
 linear = pickle_in
 
+acc = linear.score(x_test, y_test)
 print("Co:", linear.coef_)
 print("Intercept:", linear.intercept_)
 
@@ -46,3 +51,10 @@ predictions = linear.predict(x_test)
 for x in range(len(predictions)):
     print("Test params:", x_test[x],"Real:",y_test[x],"Predition:%.2f"%predictions[x],)
 
+#Plot
+p = 'G1'
+style.use('ggplot')
+pyplot.scatter(data[p], data['G3'])
+pyplot.xlabel(p)
+pyplot.ylabel('final grade')
+pyplot.show()
