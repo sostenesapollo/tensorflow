@@ -3,6 +3,9 @@ import numpy as np
 import sklearn
 from sklearn import linear_model
 from sklearn.utils import shuffle
+import matplotlib.pyplot as pyplot
+import pickle
+from matplotlib import style
 
 data = pd.read_csv("student-mat.csv",sep=';')
 data = data[['G1','G2','G3','studytime','failures','absences']]
@@ -19,6 +22,15 @@ linear = linear_model.LinearRegression()
 linear.fit(x_train, y_train)
 acc = linear.score(x_test, y_test)
 print(acc)
+
+# Pickle dumps train data
+"""
+with open("studentmodel.pickle", "wb") as f:
+    pickle.dump(linear, f)
+
+pickle_in = open("studentmodel.pickle")
+linear = pickle.load(pickle_in)
+"""
 
 print("Co:", linear.coef_)
 print("Intercept:", linear.intercept_)
