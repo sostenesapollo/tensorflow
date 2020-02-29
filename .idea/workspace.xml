@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1729a72-d5a1-4728-acc6-b371857b8107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mega-sena.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predicao-tempo-compra.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studentmodel.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/irregular-data.py" beforeDir="false" afterPath="$PROJECT_DIR$/irregular-data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svmlearn.py" beforeDir="false" afterPath="$PROJECT_DIR$/svmlearn.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +33,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\soste\dev\python\python-machine-learning\proj1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.predicao-tempo-compra">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="proj1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,9 +63,97 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="irregular-data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proj1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/irregular-data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mega-sena" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proj1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mega-sena.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predicao-tempo-compra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proj1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predicao-tempo-compra.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="svmlearn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proj1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/svmlearn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.predicao-tempo-compra" />
+        <item itemvalue="Python.mega-sena" />
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.svmlearn" />
+        <item itemvalue="Python.irregular-data" />
       </list>
     </recent_temporary>
   </component>
@@ -79,34 +174,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="754" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582256299267">
+    <state x="754" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582748305840">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="754" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1582256299267" />
+    <state x="754" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1582748305840" />
     <state x="754" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582746571980">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="754" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1582746571980" />
-    <state width="659" height="259" key="GridCell.Tab.0.bottom" timestamp="1582747220860">
+    <state width="1344" height="252" key="GridCell.Tab.0.bottom" timestamp="1582998367257">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1283" height="192" key="GridCell.Tab.0.bottom/0.0.1304.768@0.0.1304.768" timestamp="1582230923546" />
-    <state width="659" height="259" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582747220860" />
-    <state width="659" height="259" key="GridCell.Tab.0.center" timestamp="1582747220860">
+    <state width="1344" height="252" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582998367257" />
+    <state width="1344" height="252" key="GridCell.Tab.0.center" timestamp="1582998367257">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1283" height="192" key="GridCell.Tab.0.center/0.0.1304.768@0.0.1304.768" timestamp="1582230923546" />
-    <state width="659" height="259" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582747220860" />
-    <state width="659" height="259" key="GridCell.Tab.0.left" timestamp="1582747220860">
+    <state width="1344" height="252" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582998367257" />
+    <state width="1344" height="252" key="GridCell.Tab.0.left" timestamp="1582998367257">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1283" height="192" key="GridCell.Tab.0.left/0.0.1304.768@0.0.1304.768" timestamp="1582230923545" />
-    <state width="659" height="259" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582747220860" />
-    <state width="659" height="259" key="GridCell.Tab.0.right" timestamp="1582747220860">
+    <state width="1344" height="252" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582998367257" />
+    <state width="1344" height="252" key="GridCell.Tab.0.right" timestamp="1582998367257">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1283" height="192" key="GridCell.Tab.0.right/0.0.1304.768@0.0.1304.768" timestamp="1582230923546" />
-    <state width="659" height="259" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582747220860" />
+    <state width="1344" height="252" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582998367257" />
     <state width="659" height="241" key="GridCell.Tab.1.bottom" timestamp="1582744635666">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -127,9 +222,21 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="183" y="25" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1582743587802" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1582744434013">
+    <state x="0" y="0" width="607" height="768" key="find.popup" timestamp="1582995249547">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1582744434013" />
+    <state x="0" y="0" width="607" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1582995249547" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1582899485619">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="518" height="307" key="javadoc.popup.new" timestamp="1582997663652">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="518" height="307" key="javadoc.popup.new/0.0.1366.768@0.0.1366.768" timestamp="1582997663652" />
+    <state width="600" height="424" key="javadoc.popup/0.0.1366.768@0.0.1366.768" timestamp="1582899485619" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1582997544286">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1582997544286" />
   </component>
 </project>
